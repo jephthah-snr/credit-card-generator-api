@@ -92,7 +92,7 @@ exports.getUser = (req, res, next) => {
 
 exports.addUser = (req, res, next) => {
     console.log(req.body.json)
-    res.status(200).json('your data is serverd, if you get {} without ant data it means there was an error serving the data')
+    res.status(200).json('your data is serverd, if you get {} without ant data it means there was an error serving the data.')
 }
 
 exports.editUser = (req, res, next) => {
